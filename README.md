@@ -6,6 +6,10 @@ Windows automation wrapper for WhisperJAV subtitle generation:
 video -> WhisperJAV Ensemble transcription -> DeepSeek Chinese translation -> same-name .srt
 ```
 
+This project is only an automation wrapper. The underlying transcription tool is WhisperJAV:
+
+https://github.com/meizhong986/WhisperJAV
+
 ## Quick Start
 
 1. Install and verify WhisperJAV first.
