@@ -1,0 +1,30 @@
+# Local private configuration
+config.json
+internal/legacy/
+
+# Runtime state
+enabled.flag
+*.lock
+current-*.log
+current-pid.txt
+main-pid.txt
+translation-pids.txt
+current-task.json
+last-task.json
+failed-videos.txt
+failed-videos.txt.bak-*
+
+# Logs and process output
+logs/
+process-logs/
+
+# Generated subtitles and temporary work
+work/
+manual-output/
+*.subtrans
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/

@@ -1,0 +1,47 @@
+{
+  "paths": {
+    "baseDir": "D:\\WhisperJAV-Auto",
+    "workRoot": "E:\\WhisperJAV-Auto\\work",
+    "manualOutputDir": "D:\\WhisperJAV-Auto\\manual-output",
+    "videoRoots": [
+      "X:\\videos"
+    ],
+    "nasDrivePrefix": "X:\\",
+    "nasUncPrefix": "\\\\SERVER\\Share\\",
+    "whisperJavInstallDir": "D:\\whisperjav",
+    "systemPowerShell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "windowsTerminal": "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\wt.exe"
+  },
+  "deepSeek": {
+    "apiKeyEnv": "DEEPSEEK_API_KEY",
+    "apiKey": "",
+    "model": "deepseek-v4-flash",
+    "targetLanguage": "chinese",
+    "translateTone": "standard",
+    "maxBatchSize": 20
+  },
+  "processing": {
+    "logRetentionDays": 30,
+    "maxFilesPerRun": 0,
+    "maxConcurrentTranslations": 1,
+    "minAgeMinutes": 30
+  },
+  "transcription": {
+    "sourceLanguage": "japanese",
+    "subsLanguage": "native",
+    "outputFormat": "srt",
+    "pass1Pipeline": "fidelity",
+    "pass1Sensitivity": "balanced",
+    "pass1SceneDetector": "auditok",
+    "pass1SpeechEnhancer": "none",
+    "pass1SpeechSegmenter": "ten",
+    "pass1Model": "large-v2",
+    "pass2Pipeline": "balanced",
+    "pass2Sensitivity": "aggressive",
+    "pass2SceneDetector": "silero",
+    "pass2SpeechEnhancer": "none",
+    "pass2SpeechSegmenter": "silero-v6.2",
+    "pass2Model": "large-v2",
+    "mergeStrategy": "pass1_primary"
+  }
+}
