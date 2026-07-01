@@ -8,11 +8,13 @@ video -> WhisperJAV Ensemble transcription -> DeepSeek Chinese translation -> sa
 
 ## Quick Start
 
-1. Copy `config.example.json` to `config.json`.
-2. Edit `config.json` for your local paths and DeepSeek settings.
-3. Double-click `开启中文字幕自动处理.bat`.
-4. Use `查看中文字幕处理状态.bat` to inspect progress.
-5. Use `关闭中文字幕自动处理.bat` to stop the automation.
+1. Install and verify WhisperJAV first.
+2. Copy `config.example.json` to `config.json`.
+3. Edit `config.json` for your local video paths, work directory, WhisperJAV install directory, and DeepSeek settings.
+4. Run `internal\Status-WhisperJAV-Auto.ps1` once to confirm the config can be loaded.
+5. Double-click `开启中文字幕自动处理.bat`.
+6. Use `查看中文字幕处理状态.bat` to inspect progress.
+7. Use `关闭中文字幕自动处理.bat` to stop the automation.
 
 See [使用说明.md](./使用说明.md) for full Chinese documentation.
 
