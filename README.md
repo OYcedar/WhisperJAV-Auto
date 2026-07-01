@@ -13,8 +13,8 @@ https://github.com/meizhong986/WhisperJAV
 ## Quick Start
 
 1. Install and verify WhisperJAV first.
-2. Copy `config.example.json` to `config.json`.
-3. Edit `config.json` for your local video paths, work directory, WhisperJAV install directory, and DeepSeek settings.
+2. Copy `config.example.json` as `config.json`.
+3. Edit your own `config.json` for local video paths, work directory, WhisperJAV install directory, and DeepSeek settings.
 4. Run `internal\Status-WhisperJAV-Auto.ps1` once to confirm the config can be loaded.
 5. Double-click `开启中文字幕自动处理.bat`.
 6. Use `查看中文字幕处理状态.bat` to inspect progress.
